@@ -36,3 +36,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Dolby Vision
 TARGET_INCLUDES_DolbyVision := true
+
+# Axion Device Configuration
+AXION_MAINTAINER := HEYDR
+AXION_PROCESSOR := Snapdragon®_7s_Gen_2
+
+# Camera Info
+AXION_CAMERA_FRONT_INFO := 16
+
+# Display
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_BOOT_ANIMATION_RES := 1080

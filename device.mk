@@ -292,6 +292,10 @@ PRODUCT_PACKAGES += \
     LineageSDKOverlayGarnet \
     LineageSettingsOverlayGarnet \
     LineageSystemUIOverlayGarnet \
+    LunarisSettingsOverlayGarnetPoco \
+    LunarisSettingsOverlayGarnetRedmi \
+    LunarisSettingsOverlayGarnetRedmiCN \
+    LunarisSettingsOverlayGarnetXIG05 \
     NfcOverlayGarnet \
     SettingsOverlayGarnet \
     SettingsProviderOverlayGarnetPoco \

@@ -15,6 +15,15 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
+WITH_GMS := true
+TARGET_CUSTOM_UDFPS := true
+USE_REALITY_ENGINE := true
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_DISABLE_MATLOG := true
+WITH_PIXEL_LAUNCHER := false
+
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
